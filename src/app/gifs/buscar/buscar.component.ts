@@ -13,7 +13,8 @@ export class BuscarComponent {
 
    constructor( private gifsService: GifsService) {}
 
-  buscar( ) {
+  buscar() {
+    
 
     const valor = this.txtBuscar.nativeElement.value;
     
